@@ -1,4 +1,6 @@
 package dev.naimsulejmani.rentcarmanagementas.services;
 
-public interface CarService2 {
+import dev.naimsulejmani.rentcarmanagementas.entities.CarEntity;
+
+public interface CarService2 extends BaseService<CarEntity, Long> {
 }
